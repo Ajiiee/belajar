@@ -1,0 +1,118 @@
+body {
+    background: #ddd;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.main {
+    margin-left: 260px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+a.edit {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background: green;
+}
+
+a.hapus {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background: red;
+}
+
+a.tambah {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background: rgb(250, 174, 10);
+}
+
+.boks {
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.aksi a.verif {
+    padding: 15px;
+    background: blue;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.aksi a.reject {
+    padding: 15px;
+    background: #0dee0d;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
